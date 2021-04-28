@@ -1,0 +1,16 @@
+extends base
+block content 
+    input#side(type='checkbox' name='' value='')
+    .page-wrap
+      label.toggle(for='side') &#x2630;
+      .sidebar
+        ul.menu-list
+          li User Settings
+          li Friends
+          li Stats
+          li Logout
+    #wrapper
+      h1#connect4-mainpage Connect 4
+      a.btn.blue(target='_top' href='/') Play Game
+      a.btn.grey(href='#') Settings
+    
